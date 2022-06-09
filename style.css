@@ -58,9 +58,47 @@ header li{
     color: white;
     cursor: pointer;
     transition: ease-in-out 0.5s;
-    
 }
 .laranja button:hover{
     font-weight: bold;
     color: black;
+}
+.container_main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 4%;
+}
+.container_main img{
+    width: 20%;
+    height: 20%;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+footer{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: #F6F6F6;
+}
+.sociais{
+    display: flex;
+}
+.sociais img{
+    cursor: pointer;
+    width: 20%;
+    height: 30%;
+    margin: 5%;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.copyright p{
+    width: 75%;
+    font-size: 0.9vw;
 }
